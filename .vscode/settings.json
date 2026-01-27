@@ -1,0 +1,14 @@
+// Denna inställningsfil är till för att undvika att VS Code
+// uppmanar studenten att skapa s.k. "virtual environments"
+// i EDAA80/EDAA85/EDAA90/TFRE30
+
+// OBS: som student förväntas du inte behöva ändra i denna fil.
+
+{
+    "python.terminal.activateEnvironment": false,
+    "python.terminal.activateEnvInCurrentTerminal": false,
+    "github.copilot.editor.enableAutoCompletions": false,
+    "workbench.editor.empty.hint": "hidden",
+    "inlineChat.lineNaturalLanguageHint": false,
+    "files.autoSave": "onFocusChange"
+}

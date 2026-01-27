@@ -1,0 +1,12 @@
+// Denna inställningsfil är till för att automatiskt aktivera
+// rätt extensions för VS Code i EDAA80/EDAA85/EDAA90/TFRE30
+// (Python, Python debugger)
+
+// OBS: som student förväntas du inte behöva ändra i denna fil.
+
+{
+    "recommendations": [
+        "ms-python.python",
+        "ms-python.debugpy"
+    ]
+}
