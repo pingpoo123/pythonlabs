@@ -10,7 +10,11 @@
     "github.copilot.editor.enableAutoCompletions": false,
     "workbench.editor.empty.hint": "hidden",
     "inlineChat.lineNaturalLanguageHint": false,
+<<<<<<< HEAD
     "files.autoSave": "onFocusChange",
     "python-envs.defaultEnvManager": "ms-python.python:system",
     "python-envs.pythonProjects": []
+=======
+    "files.autoSave": "onFocusChange"
+>>>>>>> master
 }

@@ -87,3 +87,5 @@ class Maze:
 
     def entry(self):
         return self._to_window_coordinate_system(self._entry)
+    
+    #ta
