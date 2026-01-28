@@ -9,33 +9,6 @@ def read_words(filename):
     file = open(filepath, encoding='utf-8')
 
     # skriv ut filens innehåll
-<<<<<<< HEAD
-    for line in file:
-        print(line)
-
-def count_only(words, count_words):
-    # ännu ej implementerad
-    pass
-
-def count_all_except(words, stopwords):
-    # ännu ej implementerad
-    pass
-
-def filter_hist(hist, min_count):
-    # ännu ej implementerad
-    pass
-
-def sorted_hist(hist):
-    # ännu ej implementerad
-    pass
-
-# -----------------------------------------------------------
-
-# namnet på filen som ska läsas
-filename = 'nilsholg.txt'
-
-read_words(filename)
-=======
     #for line in file:
     #    print(line)
 
@@ -100,4 +73,3 @@ count = 0
 for t in filter_hist(hist, 100):
     count += 1
 print(count)
->>>>>>> master
