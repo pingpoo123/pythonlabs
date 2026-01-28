@@ -32,26 +32,26 @@ class TicTacToeBoard:
             if row.count(mark) == 3:
                 return True
             
-        for col in range(3):
+        for i in range(3):
             n = 0
-            for row in range(3):
-                if self._board[row][col] == mark:
-                    n =+ 1
+            for r in range(3):
+                if self._board[r][i] == mark:
+                    n +=1
             if n == 3:
                 return True
         
-        n = 0
-        for i in range(3):
-            if self._board[i][i] == mark:
-                n =+ 1
-            if n == 3:
-                return True
-        print(n)
-
+        if self._board[0][0] == mark and self._board[1][1] == mark and self._board[2][2] == mark:
+            return True
+        elif self._board[0][2] == mark and self._board[1][1] == mark and self._board[2][0] == mark:
+            return True
+        
         return False
 
-x = TicTacToeBoard()
-x.place('X',0,0)
-x.place('X',1,1)
-x.place('X',2,2)
-print(x.is_winner('X'))
+
+if __name__ == '__main__':
+    x = TicTacToeBoard()
+    x.place('X',0,0)
+    x.place('X',0,1)
+    x.place('X',0,2)
+    print(x.is_winner('X'))
+    x.print_board()
