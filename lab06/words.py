@@ -66,8 +66,8 @@ hist = count_all_except(words, stopwords)
 # print(hist['gåskarlen'])
 hist_sorted = sorted_hist(hist)
 
-# for i in range(10):
-#     print(hist_sorted[i])
+for i in range(10):
+    print(hist_sorted[i])
 
 count = 0
 for t in filter_hist(hist, 100):

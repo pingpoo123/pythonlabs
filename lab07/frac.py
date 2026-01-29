@@ -50,10 +50,10 @@ class Frac:
     def __div__(self, x):
         return self.div(x)
 
-# x = Frac(1, 6)
-# y = Frac(1, 6)
-# z = x.add(y)
-# print(f"{x} + {y} = {z}") # Skriver ut 1/6 + 1/6 = 1/3
+x = Frac(1, 6)
+y = Frac(1, 6)
+z = x.add(y)
+print(f"{x} + {y} = {z}") # Skriver ut 1/6 + 1/6 = 1/3
 
 # x = Frac(2, 3)
 # y = Frac(1, 6)
@@ -70,8 +70,8 @@ class Frac:
 # z = x.div(y)
 # print(f"{x} / {y} = {z}") # Skriver ut 3/7 / 5/2 = 6/35
 
-# x = Frac(1, 3).add(Frac(1, 3)).add(Frac(1, 6)).add(Frac(1, 6))
-# print(x)
+x = Frac(1, 3).add(Frac(1, 3)).add(Frac(1, 6)).add(Frac(1, 6))
+print(x)
 
 # x = Frac(1, 3).add(Frac(1,3)).add(Frac(1, 6).mul(Frac(1, 6)))
 # print(x)
